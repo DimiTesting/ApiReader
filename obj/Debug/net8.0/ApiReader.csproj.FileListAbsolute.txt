@@ -12,3 +12,4 @@ C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\refint\ApiReader
 C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.pdb
 C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.genruntimeconfig.cache
 C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ref\ApiReader.dll
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.sourcelink.json
