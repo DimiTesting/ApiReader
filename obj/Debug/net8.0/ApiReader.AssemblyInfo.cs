@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiReader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ede9f0e7586b53fb84b7960844bfab9083e861b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4b69ccd2b30aab3f2b375e4f4bad068d7dea431")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiReader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiReader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
