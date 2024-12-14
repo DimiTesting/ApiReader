@@ -1,0 +1,14 @@
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\bin\Debug\net8.0\ApiReader.exe
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\bin\Debug\net8.0\ApiReader.deps.json
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\bin\Debug\net8.0\ApiReader.runtimeconfig.json
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\bin\Debug\net8.0\ApiReader.dll
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\bin\Debug\net8.0\ApiReader.pdb
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.AssemblyInfoInputs.cache
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.AssemblyInfo.cs
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.csproj.CoreCompileInputs.cache
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.dll
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\refint\ApiReader.dll
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.pdb
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ApiReader.genruntimeconfig.cache
+C:\Users\amankeldi.kurban\Desktop\C#\ApiReader\obj\Debug\net8.0\ref\ApiReader.dll
