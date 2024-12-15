@@ -15,22 +15,34 @@ namespace ApiReader
     {
         public static async Task Main(string[] args)
         {
-            Console.WriteLine("New project to Read from public API and print stats per user request");
-            string baseAddress = "https://swapi.dev/api/";
-            string requestUri = "planets";
-            IApiDataReader apiDataReader = new Api();
-            string jsonResponse = await apiDataReader.Read(baseAddress, requestUri);
+            try
+            {
+                try
+                {
+                    string baseAddress = "https://swapi.dev/api/";
+                    string requestUri = "planets";
+                    IApiDataReader apiDataReader = new Api();
+                    string jsonResponse = await apiDataReader.Read(baseAddress, requestUri);
+                }
+                catch(HttpRequestException ex)
+                {
+                    Console.WriteLine($"Something incorrect with the request : {ex}" );
+                }
 
-            Planets planets = JsonSerializer.Deserialize<Planets>(jsonResponse);
-            PlanetPropertiesConversion planetPropertiesConversion = new PlanetPropertiesConversion();
-            planetPropertiesConversion.ConvertToDict(planets);
+                Planets planets = JsonSerializer.Deserialize<Planets>(jsonResponse);
+                PlanetPropertiesConversion planetPropertiesConversion = new PlanetPropertiesConversion();
+                planetPropertiesConversion.ConvertToDict(planets);
+                CustomPrinter customPrinter = new CustomPrinter();
+                customPrinter.Print(planets);
 
-            CustomPrinter customPrinter = new CustomPrinter();
-            customPrinter.Print(planets);
-
-            var userInput = Console.ReadLine();
-            GiveStats giveStats = new GiveStats();
-            giveStats.GetMinAndMax(userInput, planetPropertiesConversion);
+                var userInput = Console.ReadLine();
+                GiveStats giveStats = new GiveStats();
+                giveStats.GetMinAndMax(userInput, planetPropertiesConversion);                
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"Unexpected exception happened : {ex}");
+            }
         }
     }
 }
